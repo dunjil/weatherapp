@@ -10,7 +10,7 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
- ? NetworkingService networkingService = NetworkingService();
+  NetworkingService networkingService = NetworkingService();
 
   getWeatherData() async {
     var weatherInfo = await networkingService.getWeatherData();
