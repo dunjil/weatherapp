@@ -8,7 +8,7 @@ class LoadingScreen extends StatefulWidget {
   @override
   _LoadingScreenState createState() => _LoadingScreenState();
 }
-]-=[p09iu78y6t543]
+
 class _LoadingScreenState extends State<LoadingScreen> {
  ? NetworkingService networkingService = NetworkingService();
 
